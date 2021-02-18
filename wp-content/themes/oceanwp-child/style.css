@@ -1,0 +1,58 @@
+/*
+Theme Name: OceanWP Child
+Theme URI: https://oceanwp.org/
+Description: OceanWP WordPress child theme.
+Author: Guilherme Cima
+Author URI: https://oceanwp.org/
+Template: oceanwp
+Version: 1.0
+*/
+
+.elementor-9 .elementor-element .elementor-element-1124f29 .elementor-icon  {
+    transform: scale(4) !important ;
+    opacity: .2;
+}
+
+.elementor-9 .elementor-element.elementor-element-368f680 .elementor-icon{
+    transform: scale(4) !important ;
+    opacity: .2;
+}
+
+.es-listing .es-property-inner, .es-listing .es-property-inner:hover, .es-layout-3_col .es-property-inner:hover .es-details-wrap, .es-layout-2_col .es-property-inner:hover .es-details-wrap {
+    border: none !important;
+}
+.es-listing .es-property-inner {
+    margin-top: 70px !important;
+}
+.es-listing .es-property-inner .es-property-thumbnail {
+    padding: 0;
+}
+
+.es-col-1 .es-col-view .es-price, .es-layout-1_col .es-col-view .es-price, .es-layout-2_col .es-col-view .es-price, .es-layout-3_col .es-col-view .es-price, .es-listing .es-property-inner .es-property-info h2 a {
+    color: white;
+}
+
+.es-col-1 .es-col-view, .es-layout-1_col .es-col-view, .es-layout-2_col .es-col-view, .es-layout-3_col .es-col-view, .es-layout-1_col .properties .es-bottom-info, .es-layout-2_col .properties .es-bottom-info, .es-layout-3_col .properties .es-bottom-info, .es-layout-3_col .es-details-wrap, .es-layout-2_col .es-details-wrap {
+    background-color: #1f2931 !important;
+}
+
+.es-layout-1_col .properties .es-bottom-icon-cols .es-bottom-icon, .es-layout-2_col .properties .es-bottom-icon-cols .es-bottom-icon, .es-layout-3_col .properties .es-bottom-icon-cols .es-bottom-icon {
+    color: #b6b6b6;
+}
+
+.es-listing .es-property-inner .es-property-thumbnail .es-thumbnail .es-thumbnail-bottom {
+    background-color: #1f2931d0;
+    color: #b6b6b6;
+}
+
+.es-dropdown-container {
+    margin-left: 60%;
+}
+
+.select2 .select2-container .select2-container--default .select2-container--below {
+    width: 100%;
+}
+
+.entry-header .clr .single-post-title .entry-title {
+    color: white !important;
+}
