@@ -7,52 +7,130 @@ Author URI: https://oceanwp.org/
 Template: oceanwp
 Version: 1.0
 */
-
-.elementor-9 .elementor-element .elementor-element-1124f29 .elementor-icon  {
-    transform: scale(4) !important ;
-    opacity: .2;
+.elementor-9 .elementor-element .elementor-element-1124f29 .elementor-icon {
+  -webkit-transform: scale(4) !important;
+          transform: scale(4) !important;
+  opacity: .2;
 }
 
-.elementor-9 .elementor-element.elementor-element-368f680 .elementor-icon{
-    transform: scale(4) !important ;
-    opacity: .2;
+.elementor-9 .elementor-element.elementor-element-368f680 .elementor-icon {
+  -webkit-transform: scale(4) !important;
+          transform: scale(4) !important;
+  opacity: .2;
 }
 
-.es-listing .es-property-inner, .es-listing .es-property-inner:hover, .es-layout-3_col .es-property-inner:hover .es-details-wrap, .es-layout-2_col .es-property-inner:hover .es-details-wrap {
-    border: none !important;
+.es-listing .es-property-inner, .es-listing .es-property-inner:hover {
+  border: none !important;
 }
+
 .es-listing .es-property-inner {
-    margin-top: 70px !important;
+  margin-top: 70px !important;
 }
+
 .es-listing .es-property-inner .es-property-thumbnail {
-    padding: 0;
+  padding: 0;
+}
+
+.es-btn-orange, .es-button-orange {
+  background-color: var(--e-global-color-accent) !important;
+}
+
+.es-btn-orange:hover, .es-button-orange:hover {
+  background-color: var(--e-global-color-6b46166) !important;
+}
+
+.es-layout-3_col .es-property-inner:hover .es-details-wrap, .es-layout-2_col .es-property-inner:hover .es-details-wrap {
+  border: none !important;
 }
 
 .es-col-1 .es-col-view .es-price, .es-layout-1_col .es-col-view .es-price, .es-layout-2_col .es-col-view .es-price, .es-layout-3_col .es-col-view .es-price, .es-listing .es-property-inner .es-property-info h2 a {
-    color: white;
+  color: white;
 }
 
 .es-col-1 .es-col-view, .es-layout-1_col .es-col-view, .es-layout-2_col .es-col-view, .es-layout-3_col .es-col-view, .es-layout-1_col .properties .es-bottom-info, .es-layout-2_col .properties .es-bottom-info, .es-layout-3_col .properties .es-bottom-info, .es-layout-3_col .es-details-wrap, .es-layout-2_col .es-details-wrap {
-    background-color: #1f2931 !important;
+  background-color: #1f2931 !important;
 }
 
 .es-layout-1_col .properties .es-bottom-icon-cols .es-bottom-icon, .es-layout-2_col .properties .es-bottom-icon-cols .es-bottom-icon, .es-layout-3_col .properties .es-bottom-icon-cols .es-bottom-icon {
-    color: #b6b6b6;
+  color: #b6b6b6;
 }
 
 .es-listing .es-property-inner .es-property-thumbnail .es-thumbnail .es-thumbnail-bottom {
-    background-color: #1f2931d0;
-    color: #b6b6b6;
+  background-color: #1f2931d0;
+  color: #b6b6b6;
 }
 
 .es-dropdown-container {
-    margin-left: 60%;
+  margin-left: 60%;
 }
 
 .select2 .select2-container .select2-container--default .select2-container--below {
-    width: 100%;
+  width: 100%;
 }
 
 .entry-header .clr .single-post-title .entry-title {
-    color: white !important;
+  color: white !important;
 }
+
+/*Locations*/
+.mphb_widget_search-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mphb_widget_search-form .mphb-datepick.mphb_datepicker.is-datepick {
+  color: white;
+}
+
+.mphb_sc_rooms-wrapper.mphb-room-types {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.mphb_sc_rooms-wrapper.mphb-room-types .mphb-room-type {
+  margin-top: 0;
+  width: 350px;
+  margin: 10px;
+  background-color: #1f2931;
+  color: white;
+}
+
+.mphb_sc_rooms-wrapper.mphb-room-types .mphb-room-type .mphb-room-type-title {
+  margin-top: 20px;
+}
+
+.mphb_sc_rooms-wrapper.mphb-room-types .mphb-room-type .mphb-room-type-title, .mphb_sc_rooms-wrapper.mphb-room-types .mphb-room-type .mphb-room-type-details-title {
+  color: white;
+}
+
+.mphb_sc_rooms-wrapper.mphb-room-types .mphb-room-type > * {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.mphb_sc_rooms-wrapper.mphb-room-types .mphb-room-type .post-thumbnail.mphb-loop-room-thumbnail {
+  margin: 0;
+}
+
+.mphb_sc_rooms-wrapper.mphb-room-types .mphb-room-type .mphb-view-details-button-wrapper, .mphb_sc_rooms-wrapper.mphb-room-types .mphb-room-type .mphb-to-book-btn-wrapper {
+  text-align: center;
+}
+
+.button, .wpforms-submit {
+  background-color: var(--e-global-color-accent) !important;
+}
+
+.button:hover, .wpforms-submit:hover {
+  background-color: var(--e-global-color-6b46166) !important;
+}
+/*# sourceMappingURL=style.css.map */
